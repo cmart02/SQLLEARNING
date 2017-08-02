@@ -1,12 +1,12 @@
 #SQL Skeleton
 SELECT
-
+  c.name
 FROM
-
+  company c
 WHERE
-
+  c.name like '%GmbH%'
 GROUP BY
 
-ORDER BY
+ORDER BY 1
 ASC
 ;
